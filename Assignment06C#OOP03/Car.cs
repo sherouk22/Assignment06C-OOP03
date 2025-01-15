@@ -14,7 +14,7 @@ namespace Assignment06C_OOP03
 
 
         //chain  constructor
-        public Car(int? id , string? model ,decimal speed)
+        public Car(int? id, string? model, decimal speed)
         {
             Console.WriteLine("constructor 01");
             Id = id;
@@ -28,13 +28,13 @@ namespace Assignment06C_OOP03
             Console.WriteLine("constructor 02");
         }
 
-        public Car(int? id) : this(id,"BMW") 
+        public Car(int? id) : this(id, "BMW")
         {
 
             Console.WriteLine("constructor 03");
         }
 
-        public override string ToString() 
+        public override string ToString()
         {
             return $"Id = {Id} \n Model = {Model} \n Speed = {Speed}";
         }
