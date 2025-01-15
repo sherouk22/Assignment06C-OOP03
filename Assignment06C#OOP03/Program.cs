@@ -37,13 +37,17 @@ namespace Assignment06C_OOP03
 
             #endregion
 
+            #region EX03  all what we have learned in the lecture.
             //Teacher teacher =new Teacher();
             //Course course = new Course();
             //teacher.Name = "Ahmed";
             //course.Titel = "oop";
             //Console.WriteLine(course.Titel);
-            //teacher.Teach(course);            
-           
+            //teacher.Teach(course); 
+            #endregion
+
+
+
 
 
         }
