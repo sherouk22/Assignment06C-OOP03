@@ -1,4 +1,5 @@
-﻿using Assignment06C_OOP03.Relationships.Association;
+﻿using Assignment06C_OOP03.Enums;
+using Assignment06C_OOP03.Relationships.Association;
 
 namespace Assignment06C_OOP03
 {
@@ -45,6 +46,12 @@ namespace Assignment06C_OOP03
             //Console.WriteLine(course.Titel);
             //teacher.Teach(course); 
             #endregion
+
+
+            //Part 02
+
+            Employee employee = new Employee(5,"Ahmed", SecurityLevel.DBA,15000m, new DateTime(2024, 1, 1), Gender.Male );
+            Console.WriteLine(employee.ToString());
 
 
 
