@@ -1,4 +1,6 @@
-﻿namespace Assignment06C_OOP03
+﻿using Assignment06C_OOP03.Relationships.Association;
+
+namespace Assignment06C_OOP03
 {
     internal class Program
     {
@@ -22,9 +24,27 @@
 
             #region EX02  all what we have learned in the lecture.
 
+            //Perant perant = new Perant(20,30);
+            //int result = perant.ProductOfNumbers();
+            //Console.WriteLine(result);
+
+            //Child child = new Child(20, 30 ,10);
+            //int result = child.ProductOfNumbers();
+            //Console.WriteLine(result);
+
+
 
 
             #endregion
+
+            //Teacher teacher =new Teacher();
+            //Course course = new Course();
+            //teacher.Name = "Ahmed";
+            //course.Titel = "oop";
+            //Console.WriteLine(course.Titel);
+            //teacher.Teach(course);            
+           
+
 
         }
     }
