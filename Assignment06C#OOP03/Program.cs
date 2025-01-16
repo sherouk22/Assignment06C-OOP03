@@ -49,7 +49,7 @@ namespace Assignment06C_OOP03
 
 
             //Part 02
-            #region  Design and implement a Class for the employees in a company:
+            #region  01 Design and implement a Class for the employees in a company:
 
 
             //Employee employee = new Employee(5,"Ahmed", SecurityLevel.DBA,15000m, new DateTime(2024, 1, 1),Gender.Male );
@@ -57,7 +57,7 @@ namespace Assignment06C_OOP03
 
             #endregion
 
-            #region  Develop a Class to represent the Hiring Date Data:
+            #region  02 Develop a Class to represent the Hiring Date Data:
 
 
             //HiringDate hiringDate = new HiringDate(7, 7, 2024);
@@ -67,7 +67,7 @@ namespace Assignment06C_OOP03
 
             #endregion
 
-            #region Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee[]EmpArr;)
+            #region  03 Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee[]EmpArr;)
             Employee[] EmployeeArr = new Employee[3];
             EmployeeArr[0] = new Employee(1, "Mohamed", SecurityLevel.DBA, 80000.00m, new HiringDate(10, 1, 2024), Gender.Male);
             EmployeeArr[1] = new Employee(2, "Sherouk", SecurityLevel.Guest, 80000.00m, new HiringDate(1, 1, 2024), Gender.Female);
