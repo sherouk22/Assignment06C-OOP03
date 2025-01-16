@@ -67,6 +67,17 @@ namespace Assignment06C_OOP03
 
             #endregion
 
+            #region Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee[]EmpArr;)
+            Employee[] EmployeeArr = new Employee[3];
+            EmployeeArr[0] = new Employee(1, "Mohamed", SecurityLevel.DBA, 80000.00m, new HiringDate(10, 1, 2024), Gender.Male);
+            EmployeeArr[1] = new Employee(2, "Sherouk", SecurityLevel.Guest, 80000.00m, new HiringDate(1, 1, 2024), Gender.Female);
+            EmployeeArr[2] = new Employee(3, "Eman", SecurityLevel.DBA | SecurityLevel.Guest | SecurityLevel.Developer | SecurityLevel.Secretary, 80000.00m, new HiringDate(1, 1, 2024), Gender.Female);
+
+            foreach (Employee emp in EmployeeArr)
+
+               Console.WriteLine(emp.ToString());
+            #endregion
+
 
         }
     }

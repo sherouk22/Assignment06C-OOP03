@@ -8,9 +8,9 @@ namespace Assignment06C_OOP03.Enums
 {
     public enum SecurityLevel
     {
-        Guest,
-        Developer,
-        Secretary,
-        DBA
+        Guest=1,
+        Developer=2,
+        Secretary=4,
+        DBA=8
     }
 }
