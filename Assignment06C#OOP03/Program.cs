@@ -49,12 +49,23 @@ namespace Assignment06C_OOP03
 
 
             //Part 02
-
-            Employee employee = new Employee(5,"Ahmed", SecurityLevel.DBA,15000m, new DateTime(2024, 1, 1), Gender.Male );
-            Console.WriteLine(employee.ToString());
+            #region  Design and implement a Class for the employees in a company:
 
 
+            //Employee employee = new Employee(5,"Ahmed", SecurityLevel.DBA,15000m, new DateTime(2024, 1, 1),Gender.Male );
+            //Console.WriteLine(employee.ToString());
 
+            #endregion
+
+            #region  Develop a Class to represent the Hiring Date Data:
+
+
+            //HiringDate hiringDate = new HiringDate(7, 7, 2024);
+            //Console.WriteLine(hiringDate.ToString());
+            // Employee employee = new Employee(5, "Ahmed", SecurityLevel.DBA, 15000m, hiringDate, Gender.Male);
+            //Console.WriteLine(employee.ToString());
+
+            #endregion
 
 
         }

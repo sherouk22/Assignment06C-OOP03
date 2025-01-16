@@ -14,11 +14,11 @@ namespace Assignment06C_OOP03
         public string Name { get; set; }
         public SecurityLevel Security { get; set; }
         public decimal Salary { get; set; }
-        public DateTime HireDate { get; set; }
+        public HiringDate HireDate { get; set; }
 
         public Gender Gender { get; set; }
 
-        public Employee(int id, string name, SecurityLevel security, decimal salary, DateTime hireDate, Gender gender)
+        public Employee(int id, string name, SecurityLevel security, decimal salary, HiringDate hireDate, Gender gender)
         {
             Id = id;
             Name = name;
@@ -30,7 +30,7 @@ namespace Assignment06C_OOP03
 
         public override string ToString()
         {
-            return $" Id: {Id} \n Name: {Name} \n Security Level: {Security} \n Salary: {Salary} \n Hire Date: {HireDate.ToShortDateString()} \n Gender: {Gender}";
+            return $" Id: {Id} \n Name: {Name} \n Security Level: {Security} \n Salary: {Salary} \n Hire Date: {HireDate} \n Gender: {Gender}";
         }
 
 
